@@ -1,0 +1,24 @@
+Package: QcExperiment
+Version: 0.0.1
+Date: 2024/12/15
+Title: Define Classes for QC Reports
+Authors@R: c(
+    person("Stevie", "Pederson", 
+        email = "stephen.pederson.au@gmail.com", role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0001-8197-3303")
+        )
+    )
+Description: This package defines the base classes and methods for storing QC 
+    reports and the output from assorted tools commonly used in bioinformatics.
+    Import functions for specific tools and data formats exist in additional
+    packages.
+URL: https://github.com/smped/QcExperiment
+BugReports: https://github.com/smped/QcExperiment/issues
+License: LGPL-3
+Encoding: UTF-8
+Depends:
+  R (>= 4.4.0)
+Imports:
+  methods
+LazyData: false
+RoxygenNote: 7.3.2
